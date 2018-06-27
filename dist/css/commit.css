@@ -1,0 +1,233 @@
+/**公共样式表*!*/
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend,menu
+{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6,strong{font-weight:100;}
+body{ font-family:"微软雅黑"; background: #f9f9f9}
+input,a{outline:none;}
+
+@font-face {
+    font-family: 'tuzi';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/iconfont.woff') format('woff'),
+    url('../font/iconfont.ttf') format('truetype'),
+    url('../font/iconfont.svg#iconfont') format('svg');
+}
+
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+
+}
+
+
+
+
+
+.head_wrap{
+    width: 100%;
+    height: 90px;
+
+}
+header{
+    width: 1000px;
+    height: 100%;
+    background: url("../im/c1.jpg")no-repeat center/cover;
+    margin: 0 auto;
+}
+
+.com_main_wrap{
+    width: 100%;
+    min-height: 720px;
+    background: url("../im/c3.jpg")no-repeat center/cover;
+}
+.com_main{
+    width: 1000px;
+    height: 100%;
+    /*background: url("../im/c3.jpg")no-repeat center/cover;*/
+    margin: 0 auto;
+}
+
+/*内容结束*/
+.lm_rigt{
+    width: 1000px;
+    height: 650px;
+    margin: 0 auto;
+    background: #fff;
+
+
+
+}
+.lm_deng{
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+    width: 350px;
+    height: auto;
+    top: 60px;
+    left: 300px;
+    box-sizing: border-box;
+    padding:  18px 40px;
+
+}
+/*内容*/
+.lm_nr{
+    width: 270px;
+    height: 370px;
+
+}
+/*账号登录*/
+.lm_zh{
+    margin: 14px 0 19px;
+    height: 40px;
+    overflow: hidden;
+    line-height: 40px;
+    border-bottom: 1px solid #e9e9e9;
+
+}
+.lm_zh a{
+    float: left;
+    display: inline-block;
+    color: #999;
+    font-size: 16px;
+
+}
+.lm_zh  span{
+    float: left;
+    display: inline-block;
+    font-size: 12px;
+    color: #999;
+    padding: 0 18px;
+}
+
+.lm_zh .zh_log{
+    color: #e4393c;
+    font-weight: bold;
+
+}
+.lm_zh a:hover{
+    text-decoration: underline;
+}
+
+/*账号*/
+.lm_user_box{
+    width: 272px;
+    height: 40px;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 20px;
+
+}
+.lm_user_box .lm_tx {
+    float: left;
+    width: 46px;
+    height: 100%;
+    border-right: 1px solid #dcdcdc;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.lm_user_box .lm_tx .lm_icon {
+    width: 20px;
+    height: 20px;
+    margin: 10px 10px 0 11px;
+    position: absolute;
+    left: 0;
+    top:0;
+    background:url(../im/regLogin-8.png) no-repeat -51px 0 ;
+}
+.lm_user_box input{
+
+    float: left;
+    width: 221px;
+    height: 100%;
+    box-sizing: border-box;
+    border:0 ;
+    font-size: 14px;
+    padding: 0 10px;
+    position: relative;
+
+}
+
+
+.lm_yzm_txt{
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+    text-shadow: 2px 2px 3px;
+    position: absolute;
+    right: 39px;
+    top: 273px;
+}
+.lm_dl{
+    width: 270px;
+    height: 40px;
+    background-color: #e10303;
+    color: #fff;
+    border-radius: 2px;
+    border: 0;
+    cursor: pointer;
+    margin-top: 20px;
+}
+/*<!--自动登录-->*/
+.lm_auto{
+    width: 270px;
+    height: 40px;
+
+    border-bottom: 1px dashed #ccc;
+    padding-left: 18px;
+    box-sizing: border-box;
+}
+.lm_auto a{
+    float: left;
+    font-size: 14px;
+    color: #999;
+    line-height: 40px;
+    margin-right:20px ;
+
+}
+.lm_auto a:hover{
+    text-decoration: underline;
+}
+.lm_auto a:nth-child(3){
+    color: #0066cc;
+}
+.lm_auto a input{
+    float: left;
+    width: 14px;
+    height: 14px;
+    margin-top: 14px;
+
+}
+.lm_qq{
+    width: 100%;
+    height: 44px;
+    background:url(../im/logo5.jpg) no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+
+/*内容结束*/
+.foot_wrap{
+    width: 100%;
+    height: 236px;
+
+}
+footer{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    background: url("../im/c2.jpg")no-repeat center/cover;
+}

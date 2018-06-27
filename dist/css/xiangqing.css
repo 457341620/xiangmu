@@ -1,0 +1,192 @@
+.xq_main_wrap{
+    width: 100%;
+    min-height: 500px;
+
+}
+.xq_main{
+    width: 1200px;
+    height: 570px;
+    margin: 0 auto;
+    overflow: hidden;
+
+
+
+
+
+}
+.fl_shop_ul{
+    display: none;
+}
+
+/*左边*/
+.left{
+    float: left;
+    width: 440px;
+    height: 100%;
+
+}
+/*放大镜模块*/
+.wrap{
+    width: 440px;
+    height: 440px;
+    cursor: move;
+    position: relative;
+}
+.small{
+    width: 440px;
+    height: 440px;
+}
+.small img{
+    width: 440px;
+    height: 440px;
+}
+.mouse{
+    display: none;
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    position: absolute;
+    opacity: .5;
+    /*left: 0;*/
+    /*top: 0;*/
+}
+.big{
+    display: none;
+    width: 440px;
+    height: 440px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    position: absolute;
+    left: 440px;
+    top: 0;
+}
+.big img{
+    width: 880px;
+    height: 880px;
+    position: absolute;
+}
+/*放大镜模块end*/
+
+.list{
+    width: 100%;
+    height: 70px;
+
+}
+.list_ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.list_ul li{
+    float: left;
+    width: 54px;
+    height: 54px;
+
+}
+.list_ul li img{
+    width: 54px;
+    height: 54px;
+    transition: all .1s;
+
+}
+.list_ul li img:hover{
+    width: 53px;
+    height: 53px;
+    border: 1px solid #c33;
+}
+
+/*左边结束*/
+
+
+/*中间边*/
+.mid{
+    float: left;
+    width: 558px;
+    height: 100%;
+
+}
+.mid_nr{
+    width: 558px;
+    height: auto;
+
+}
+.mid_nr img{
+     width: 558px;
+     height: 272px;
+    margin-top: 20px;
+}
+.mid_nr p{
+    width: 100%;
+    height: 30px;
+
+    font-size: 13px;
+    box-sizing: border-box;
+    padding: 0 13px;
+    position: relative;
+}
+.mid_nr p i{
+    font-style: normal;
+    color: #666;
+    line-height: 30px;
+}
+.mid_nr p a{
+    color: #666;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    text-align: center;
+}
+.mid_nr p .num{
+    display: inline-block;
+    width: 60px;
+    height: 100%;
+    line-height: 30px;
+}
+.mid_nr p .add{
+    position: absolute;
+    width: 19px;
+    height: 13px;
+    line-height: 10px;
+    left: 106px ;
+    top:0;
+}
+.mid_nr p .mul{
+    position: absolute;
+    width: 19px;
+    height: 13px;
+    line-height: 10px;
+    left: 106px ;
+    top:17px;
+}
+.mid_nr p span{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 12px;
+    color: #c33 ;
+}
+
+.mid_nr  .cart{
+    display: block;
+    width: 168px;
+    height: 40px;
+    border: 1px solid #fcc;
+    background: #c33;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    margin: 40px 0 0 40px;
+}
+
+    /*中间结束*/
+
+/*右边*/
+.right{
+    float: left;
+    width: 200px;
+    height: 100%;
+
+}
+
+/*右边结束*/

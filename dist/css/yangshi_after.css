@@ -321,6 +321,10 @@ header .wrap .head_ri  a{
     justify-content: space-between;
     align-items: center;
 }
+.rush_top ul li:nth-child(1){
+    background: #fff;
+}
+
 .rush_top ul li{
     width: 186px;
     height: 100%;
@@ -342,16 +346,15 @@ header .wrap .head_ri  a{
 .rush_le .rush_con{
     width: 100%;
     height: 461px;
+    overflow: hidden;
 
 }
 .rush_con ul{
     box-sizing: border-box;
     color: #666666;
 
-
-
 }
-.rush_con ul li{
+.rush_con ul .rush_con_li{
     float: left;
     width: 184px;
     height: 196px;
@@ -359,17 +362,20 @@ header .wrap .head_ri  a{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 
 
 
 }
-.rush_con ul li a{
+.rush_con ul .rush_con_li a{
     display: block;
     width: 160px;
     height: 160px;
-    background: url("../im/1.jpg") no-repeat center/cover;
+    /*background: url("../im/1.jpg") no-repeat center/cover;*/
 }
-.rush_con ul li p{
+.rush_con ul .rush_con_li p{
     font-size: 14px;
     width: 100%;
     padding: 0 2px;
@@ -380,14 +386,14 @@ header .wrap .head_ri  a{
     white-space: nowrap;
 
 }
-.rush_con ul li p span{
+.rush_con ul .rush_con_li p span{
     float: left;
     display: inline-block;
     width: 72px;
     height: 16px;
     background: url("../im/zhenxuan.jpg") no-repeat  center/cover;
 }
-.rush_con ul li i{
+.rush_con ul .rush_con_li i{
     font-style: normal;
     color: #cd0100;
     font-size: 12px;
