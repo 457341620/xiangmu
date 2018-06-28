@@ -1,3 +1,16 @@
+.xia{
+    width: 890px;
+    height: 34px;
+    background: #990000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    left: 333px;
+    top: 0;
+}
+
+
 .xq_main_wrap{
     width: 100%;
     min-height: 500px;
@@ -8,11 +21,6 @@
     height: 570px;
     margin: 0 auto;
     overflow: hidden;
-
-
-
-
-
 }
 .fl_shop_ul{
     display: none;
@@ -23,10 +31,9 @@
     float: left;
     width: 440px;
     height: 100%;
-
 }
 /*放大镜模块*/
-.wrap{
+.xq_wrap{
     width: 440px;
     height: 440px;
     cursor: move;
@@ -35,10 +42,16 @@
 .small{
     width: 440px;
     height: 440px;
+
 }
 .small img{
     width: 440px;
     height: 440px;
+    /*display: none;*/
+    position: absolute;
+}
+.small img:nth-child(1){
+    /*display: block;*/
 }
 .mouse{
     display: none;
@@ -46,9 +59,10 @@
     height: 200px;
     background: yellow;
     position: absolute;
-    opacity: .5;
-    /*left: 0;*/
-    /*top: 0;*/
+    opacity: .3;
+    cursor: move;
+    left: 0;
+    top: 0;
 }
 .big{
     display: none;
@@ -57,15 +71,19 @@
     box-sizing: border-box;
     border: 1px solid #ccc;
     overflow: hidden;
+    background: #fff;
     position: absolute;
     left: 440px;
     top: 0;
+    cursor: move;
 }
 .big img{
     width: 880px;
     height: 880px;
     position: absolute;
 }
+
+
 /*放大镜模块end*/
 
 .list{

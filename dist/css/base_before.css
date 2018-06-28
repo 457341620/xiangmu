@@ -514,6 +514,9 @@ nav .nav_wrap{
     top:0;
 
 }
+.nav_ull{
+    left: 340px;
+}
 .nav_ul li{
     height: 100%;
     line-height: 34px;
